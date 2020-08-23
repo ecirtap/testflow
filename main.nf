@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-sentences=file('sentences.txt')
+sentences=file('https://raw.githubusercontent.com/ecirtap/testflow/master/sentences.txt')
 
 process treetagger {
   container 'ecirtap/treetagger:3.2.3'
