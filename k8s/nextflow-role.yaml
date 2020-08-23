@@ -8,7 +8,8 @@ rules:
     - ''
     resources:
     - pods
+    - pods/status
     verbs:
     - list
     - create
-    - status
+    - get
